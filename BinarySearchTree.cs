@@ -60,5 +60,10 @@ namespace BinarySearchTree
                 this.RightTree.Display(); //recursive call display method
             }
         }
+
+        public void GetSize()
+        {
+            Console.WriteLine("\nSize" + " " + (1 + this.leftCount + this.rightCount));
+        }
     }
 }
